@@ -11,7 +11,7 @@ font pango:Fantasque Sans Mono 8
 exec --no-startup-id nm-applet
 
 # autostart
-exec --no-startup-id nitrogen --set-zoom-fill ~/.config/wallpaper*
+exec_always --no-startup-id "feh --bg-scale ~/i3-xerneas/wallpaper.jpg"
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 exec_always --no-startup-id killall -p picom; picom -b
 
@@ -169,17 +169,12 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Configure border style
-new_window pixel 2
-new_float pixel 2
-
-# change borders
-bindsym $mod+u border pixel 2
-bindsym $mod+i border normal
-
 # set inner/outer gaps
-gaps inner 4
-gaps outer -2
+gaps inner 5
+gaps outer 2
+
+# set border to zero
+for_window [class=".*"] border pixel 0
 
 # smart gaps (gaps drawn only when more than one window available in workspace)
 # smart_gaps on

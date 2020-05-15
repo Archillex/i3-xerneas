@@ -1,5 +1,4 @@
 ant-dracula-gtk-theme
-papirus-icon-theme
 scrot
 polybar
 ttf-fantasque-sans-mono
@@ -9,5 +8,5 @@ dunst
 rofi
 picom-ibhagwan-git
 lxappearance
-nitrogen
+feh
 light

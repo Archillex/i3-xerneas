@@ -171,11 +171,11 @@ font:
 #draw_bold_text_with_bright_colors: false
 
 
-# Colors (Dracula)
+# Colors (Xerneas)
 colors:
   # Default colors
   primary:
-    background: '0x282a36'
+    background: '0x000000'
     foreground: '0xf8f8f2'
 
     # Bright and dim foreground colors
@@ -202,7 +202,7 @@ colors:
     yellow:  '0xf1fa8c'
     blue:    '0xbd93f9'
     magenta: '0xff79c6'
-    cyan:    '0x8be9fd'
+    cyan:    '0x7700ff'
     white:   '0xbfbfbf'
 
   # Bright colors
@@ -213,7 +213,7 @@ colors:
     yellow:  '0xf4f99d'
     blue:    '0xcaa9fa'
     magenta: '0xff92d0'
-    cyan:    '0x9aedfe'
+    cyan:    '0x637cff'
     white:   '0xe6e6e6'
 
   # Dim colors
